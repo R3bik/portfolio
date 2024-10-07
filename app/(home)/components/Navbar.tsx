@@ -3,22 +3,23 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+import { SiInstagram } from "react-icons/si";
 const Navbar = ({ className }: { className?: string }) => {
   const socials = [
     {
-      Link: "https://www.facebook.com",
+      Link: "https://www.facebook.com/rebik.basnet/",
       label: "Facebook",
       Icon: FaFacebook,
     },
     {
-      Link: "https://www.github.com",
+      Link: "https://github.com/R3bik/",
       label: "Github",
       Icon: FaGithub,
     },
     {
-      Link: "https://www.linkedin.com",
-      label: "Linkedin",
-      Icon: FaLinkedin,
+      Link: "https://www.instagram.com/rebik_basnet/",
+      label: "instagram",
+      Icon: SiInstagram,
     },
   ];
   return (

@@ -5,7 +5,7 @@ import Title from "./Title";
 
 const HeroSection = () => {
   return (
-    <div className="min-h-[60vh] flex lg:flex-row flex-col-reverse gap-14 lg:gap-0 items-center justify-between">
+    <div className="min-h-[60vh] flex lg:flex-row flex-col gap-14 lg:gap-0 items-center justify-between">
       {/* holding intro */}
       <div className="space-y-10 text-center lg:text-left">
         <h1 className="text-4xl lg:text-7xl font-bold">
@@ -28,8 +28,8 @@ const HeroSection = () => {
         </Link>
       </div>
       {/* holding picture */}
-      <div className="relative">
-        <div className="relative w-72 h-72 space-y-3 -rotate-[30deg]">
+      <div className=" relative  ">
+        <div className=" relative w-72 h-72 space-y-3 -rotate-[30deg]">
           <div className="flex gap-3 translate-x-8">
             <div className="w-32 h-32 rounded-2xl bg-pink-500"></div>
             <div className="w-32 h-32 rounded-full bg-cyan-300"></div>
@@ -41,7 +41,7 @@ const HeroSection = () => {
           <div className="glow absolute top-[40%] right-1/2 -z-10"></div>
         </div>
 
-        <div className="absolute bottom-5 sm:bottom-14 left-0 sm:-left-10">
+        <div className="absolute  bottom-5 sm:bottom-14 left-10  sm:-left-10">
           <MovingBorderBtn borderRadius="0.5rem" className="p-3 font-semibold">
             <p>👜 Available for Work</p>
           </MovingBorderBtn>

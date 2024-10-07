@@ -10,15 +10,22 @@ const Project = () => {
     {
       title: "Nike Landing Page",
       tech: [SiReact, SiTailwindcss],
-      Link: "#",
+      Link: "https://github.com/R3bik/Nike_landing_page.git",
       cover: "/nike_landing.png",
       background: "bg-indigo-500",
     },
     {
       title: "Movie Searching using Api",
       tech: [SiReact, SiTailwindcss],
-      Link: "#",
+      Link: "https://github.com/R3bik/movie_serching_api.git",
       cover: "/movie_search.png",
+      background: "bg-green-500",
+    },
+    {
+      title: "Full stack Eccomerce website with chatbot(Final year project).",
+      tech: [SiReact, SiTailwindcss],
+      Link: "https://github.com/R3bik/RamrosaleV2.git",
+      cover: "/ramrosale.png",
       background: "bg-green-500",
     },
   ];
