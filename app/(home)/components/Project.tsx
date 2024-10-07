@@ -1,5 +1,6 @@
 import React from "react";
-import { SiReact, SiTailwindcss } from "react-icons/si";
+import { SiMongodb, SiReact, SiTailwindcss } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 import Title from "./Title";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
@@ -10,7 +11,7 @@ const Project = () => {
     {
       title: "Nike Landing Page",
       tech: [SiReact, SiTailwindcss],
-      Link: "https://github.com/R3bik/Nike_landing_page.git",
+      Link: "https://nike-landing-page-indol-one.vercel.app/",
       cover: "/nike_landing.png",
       background: "bg-indigo-500",
     },
@@ -23,10 +24,17 @@ const Project = () => {
     },
     {
       title: "Full stack Eccomerce website with chatbot(Final year project).",
-      tech: [SiReact, SiTailwindcss],
+      tech: [SiReact, SiTailwindcss, SiMongodb],
       Link: "https://github.com/R3bik/RamrosaleV2.git",
       cover: "/ramrosale.png",
       background: "bg-green-500",
+    },
+    {
+      title: "Online Eccomerce(frontend).",
+      tech: [TbBrandNextjs, SiTailwindcss],
+      Link: "https://wholesale-wheat.vercel.app/",
+      cover: "/onlineshop.png",
+      background: "bg-indigo-500",
     },
   ];
   return (
@@ -39,10 +47,12 @@ const Project = () => {
         {projects.map((project, index) => {
           return (
             <Link href={project.Link} key={index}>
-              <div className={cn("p-2 rounded-lg", project.background)}>
+              <div
+                className={cn("p-2 rounded-lg bg-contain", project.background)}
+              >
                 <DirectionAwareHover
                   imageUrl={project.cover}
-                  className="w-full space-y-5 cursor-pointer"
+                  className="w-full space-y-5 cursor-pointer "
                 >
                   <div className="space-y-5">
                     <h1 className="text-2xl font-bold">{project.title}</h1>
