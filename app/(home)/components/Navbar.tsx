@@ -17,9 +17,9 @@ const Navbar = ({ className }: { className?: string }) => {
       Icon: FaGithub,
     },
     {
-      Link: "https://www.instagram.com/rebik_basnet/",
-      label: "instagram",
-      Icon: SiInstagram,
+      Link: "https://www.linkedin.com/in/rebik-basnet-20b34b306",
+      label: "linkedin",
+      Icon: FaLinkedin,
     },
   ];
   return (
