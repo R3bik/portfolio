@@ -20,12 +20,12 @@ const HeroSection = () => {
             "I'm a Web designer and developer passionate about learning and building modern web applications."
           }
         </p>
-        <Link
+        <a
           href={"mailto:basnetrebik07@gmail.com"}
           className="inline-block group"
         >
           <Title name=" Contact Me 📩" />
-        </Link>
+        </a>
       </div>
       {/* holding picture */}
       <div className=" relative  ">
